@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>図解工房 運用メトリクス取得ツール / Zukai Kobo Metrics</title>
+<style>
+  body { font-family: "Segoe UI", "Yu Gothic UI", sans-serif; max-width: 720px;
+         margin: 0 auto; padding: 32px 20px 64px; line-height: 1.75; color: #1c1c22;
+         background: #fbfbfd; }
+  h1 { font-size: 1.5rem; line-height: 1.4; }
+  h2 { font-size: 1.05rem; margin-top: 2em; }
+  .lead { color: #4a4a55; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border-bottom: 1px solid #e3e3ea; padding: 8px 6px; text-align: left;
+           font-size: .94rem; vertical-align: top; }
+  th { white-space: nowrap; color: #4a4a55; font-weight: 600; }
+  footer { margin-top: 3em; color: #6b6b76; font-size: .85rem; }
+  a { color: #0b5cad; }
+  code { background: #f0f0f4; padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+</style>
+</head>
+<body>
+<h1>図解工房 運用メトリクス取得ツール<br><span class="lead" style="font-size:.8em">Zukai Kobo Metrics — personal analytics tool</span></h1>
+
+<p>
+このページは、YouTubeチャンネル「<a href="https://www.youtube.com/@zukai_kobo">図解工房（@zukai_kobo）</a>」の
+<strong>運営者本人</strong>が、自分のチャンネルの分析データを確認するために使用している
+<strong>個人用ツール</strong>の説明です。第三者に提供するサービスではありません。
+</p>
+
+<h2>このツールが行うこと</h2>
+<table>
+  <tr><th>用途</th><td>チャンネル運営の改善（どの動画で視聴者が離脱しているかの把握、題材の選定）</td></tr>
+  <tr><th>アクセスするデータ</th><td>運営者本人が所有するチャンネルの分析データ（<strong>読み取り専用</strong>）</td></tr>
+  <tr><th>利用するAPI</th><td>YouTube Analytics API（スコープ: <code>yt-analytics.readonly</code>）</td></tr>
+  <tr><th>取得する統計値</th><td>再生回数、平均視聴時間、平均視聴率、視聴維持率、地域別集計（視聴者を識別する情報は取得しません）</td></tr>
+  <tr><th>保存場所</th><td>運営者のPC内のみ（ローカルファイル）。外部サーバーへ送信しません</td></tr>
+  <tr><th>第三者提供</th><td>ありません</td></tr>
+  <tr><th>公開状況</th><td>一般には公開していません（運営者本人のみが使用）</td></tr>
+</table>
+
+<h2>English summary</h2>
+<p class="lead">
+A personal, internal tool used by the owner of the YouTube channel
+<a href="https://www.youtube.com/@zukai_kobo">@zukai_kobo</a>. It reads that channel's own
+YouTube Analytics data (read-only, scope <code>yt-analytics.readonly</code>) to see where
+viewers drop off, and stores the statistics only on the owner's local computer.
+No data is shared with third parties and the tool is not offered as a public service.
+</p>
+
+<h2>連絡先 / Contact</h2>
+<p>hermes.news.kaniy@gmail.com</p>
+
+<p><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></p>
+
+<footer>
+  制定日: 2026-10-05 &middot; 本方針・説明は予告なく更新されることがあります。<br>
+  Last updated: 2026-10-05
+</footer>
+</body>
+</html>
